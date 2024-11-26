@@ -18,7 +18,7 @@ namespace Tarea_KatherineMurilloJimenez.Controllers
             return Ok(perros);
         }
 
-        //Método GET que busca un perro en la lista por su Id tyhyrthr
+        //Método GET que busca un perro en la lista por su Id 
         [HttpGet("{id}")]
         public ActionResult<cls_Perros> Get(int id)
         {
